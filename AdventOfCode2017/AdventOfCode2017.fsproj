@@ -51,9 +51,13 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Library1.fs" />
-    <None Include="Script.fsx" />
+    <Compile Include="Day1.fs" />
+    <None Include="Day1_PartOne.fsx" />
+    <None Include="Day1_PartTwo.fsx" />
     <Content Include="packages.config" />
+    <Compile Include="Day2.fs" />
+    <None Include="Day2_PartOne.fsx" />
+    <None Include="Day2_PartTwo.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
