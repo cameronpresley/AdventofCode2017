@@ -15,7 +15,7 @@ let rec calculateBottomRight start number =
 type Direction = Left | Right | Up | Down
 
 let rec stepThrough (x:int) (y:int) currentSpot direction final =
-    if final = currentSpot then Math.Abs(x) + Math.Abs(y)
+    if final = currentSpot then abs(x) + abs(y)
     else
         match direction with
         | Up ->
